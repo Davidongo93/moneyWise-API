@@ -25,7 +25,7 @@ public class ApiController {
     @PostMapping("/create")
 
     public ResponseEntity<Elemento> crearElemento(@RequestBody Elemento elemento) {
-
+        System.out.println("crear");
         // Lógica para crear el elemento
         return ResponseEntity.ok(elementoService.crearElemento(elemento));
 
