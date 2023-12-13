@@ -33,7 +33,7 @@ public class ApiController {
 
 
 
-    @GetMapping("/users")
+    @GetMapping("/element")
 
     public ResponseEntity<List<Elemento>> obtenerElementos() {
 
